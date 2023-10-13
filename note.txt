@@ -1,0 +1,139 @@
+
+HP@MERE MINGW64 ~ (master)
+$  cd ..
+
+HP@MERE MINGW64 /c/Users
+$ cd ..
+
+HP@MERE MINGW64 /c
+$ cd users
+
+HP@MERE MINGW64 /c/users
+$ cd hp
+
+HP@MERE MINGW64 /c/users/hp (master)
+$ cd ..
+
+HP@MERE MINGW64 /c/users
+$ cd ..
+
+HP@MERE MINGW64 /c
+$ cd ..
+
+HP@MERE MINGW64 /
+$ cd ..
+
+HP@MERE MINGW64 /
+$ cd c
+
+HP@MERE MINGW64 /c
+$ mkdir Exercise
+
+HP@MERE MINGW64 /c
+$ cd Exercise
+
+HP@MERE MINGW64 /c/Exercise
+$ mkdir Harrison
+
+HP@MERE MINGW64 /c/Exercise
+$ mkdir Dapo
+
+HP@MERE MINGW64 /c/Exercise
+$ touch exercise.txt
+
+HP@MERE MINGW64 /c/Exercise
+$ touch home.html
+
+HP@MERE MINGW64 /c/Exercise
+$ ls
+Dapo/  Harrison/  exercise.txt  home.html
+
+HP@MERE MINGW64 /c/Exercise
+$ mv Text/ Test/
+mv: cannot stat 'Text/': No such file or directory
+
+HP@MERE MINGW64 /c/Exercise
+$ mv Harrison/ dapo/
+
+HP@MERE MINGW64 /c/Exercise
+$ cd Harrison
+bash: cd: Harrison: No such file or directory
+
+HP@MERE MINGW64 /c/Exercise
+$ cd dapo
+
+HP@MERE MINGW64 /c/Exercise/dapo
+$ ls
+Harrison/
+
+HP@MERE MINGW64 /c/Exercise/dapo
+$ cd ..
+
+HP@MERE MINGW64 /c/Exercise
+$ mv home.html dapo
+
+HP@MERE MINGW64 /c/Exercise
+$ cd dapo
+
+HP@MERE MINGW64 /c/Exercise/dapo
+$ ls
+Harrison/  home.html
+
+HP@MERE MINGW64 /c/Exercise/dapo
+$ ls
+Harrison/  home.html
+
+HP@MERE MINGW64 /c/Exercise/dapo
+$ mv exercise.txt promise.css
+mv: cannot stat 'exercise.txt': No such file or directory
+
+HP@MERE MINGW64 /c/Exercise/dapo
+$ mv home.html harrison.html
+
+HP@MERE MINGW64 /c/Exercise/dapo
+$ ls
+Harrison/  harrison.html
+
+HP@MERE MINGW64 /c/Exercise/dapo
+$ cd ..
+
+HP@MERE MINGW64 /c/Exercise
+$ mv exercise.txt dapo
+
+HP@MERE MINGW64 /c/Exercise
+$ ls
+Dapo/
+
+HP@MERE MINGW64 /c/Exercise
+$ cd dapo
+
+HP@MERE MINGW64 /c/Exercise/dapo
+$ ls
+Harrison/  exercise.txt  harrison.html
+
+HP@MERE MINGW64 /c/Exercise/dapo
+$ rmdir Harrison
+
+HP@MERE MINGW64 /c/Exercise/dapo
+$ ls
+exercise.txt  harrison.html
+
+HP@MERE MINGW64 /c/Exercise/dapo
+$ rm exercise.txt
+
+HP@MERE MINGW64 /c/Exercise/dapo
+$ mkdir Harrison
+
+HP@MERE MINGW64 /c/Exercise/dapo
+$ touch Exercise.txt
+
+HP@MERE MINGW64 /c/Exercise/dapo
+$ ls
+Exercise.txt  Harrison/  harrison.html
+
+HP@MERE MINGW64 /c/Exercise/dapo
+$ ls
+Exercise.txt  Harrison/  harrison.html
+
+HP@MERE MINGW64 /c/Exercise/dapo
+$
